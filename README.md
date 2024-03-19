@@ -51,7 +51,7 @@
 ``````
 # PROGRAM :
 
-```
+```python
 from collections import defaultdict
 H_dist ={}
 def aStarAlgo(start_node, stop_node):
@@ -162,6 +162,7 @@ aStarAlgo('S', 'G')
 <hr>
 <h2>Sample Graph I</h2>
 <hr>
+
 ![image](https://github.com/DIVYADHARSHINI-08/19AI405ExpNo4/assets/145210448/ab9df126-ead5-4d4e-94dc-6bae59b851e3)
 
 <hr>
@@ -201,6 +202,7 @@ Path found: ['A', 'F', 'G', 'I', 'J']
 <hr>
 <h2>Sample Graph II</h2>
 <hr>
+
 ![image](https://github.com/DIVYADHARSHINI-08/19AI405ExpNo4/assets/145210448/b0b98546-120b-4604-af83-ddd51b74d3ae)
 
 <hr>
