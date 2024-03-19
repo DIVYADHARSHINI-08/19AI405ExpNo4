@@ -61,7 +61,8 @@ def aStarAlgo(start_node, stop_node):
     parents = {}         # parents contains an adjacency map of all nodes
     #distance of starting node from itself is zero
     g[start_node] = 0
-
+```
+```
 #start_node is root node i.e it has no parent nodes
 #so start_node is set to its own parent node
 
@@ -97,7 +98,8 @@ while len(open_set) > 0:
     if n == None:
         print('Path does not exist!')
         return None
-        
+```
+```        
 # if the current node is the stop_node
 # then we begin reconstructin the path from it to the start_node
 
@@ -155,11 +157,12 @@ print(H_dist)
 Graph_nodes=graph
 print(graph)
 aStarAlgo('S', 'G')
+```
 
 <hr>
 <h2>Sample Graph I</h2>
 <hr>
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/b1377c3f-011a-4c0f-a843-516842ae056a)
+![image](https://github.com/DIVYADHARSHINI-08/19AI405ExpNo4/assets/145210448/ab9df126-ead5-4d4e-94dc-6bae59b851e3)
 
 <hr>
 <h2>Sample Input</h2>
@@ -198,9 +201,7 @@ Path found: ['A', 'F', 'G', 'I', 'J']
 <hr>
 <h2>Sample Graph II</h2>
 <hr>
-
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/acbb09cb-ed39-48e5-a59b-2f8d61b978a3)
-
+![image](https://github.com/DIVYADHARSHINI-08/19AI405ExpNo4/assets/145210448/b0b98546-120b-4604-af83-ddd51b74d3ae)
 
 <hr>
 <h2>Sample Input</h2>
@@ -222,3 +223,6 @@ G 0 <br>
 <h2>Sample Output</h2>
 <hr>
 Path found: ['A', 'E', 'D', 'G']
+
+# RESULT:
+Implementing A * Search algorithm for a Graph using Python 3. is executed successfully.
