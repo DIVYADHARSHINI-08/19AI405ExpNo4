@@ -168,10 +168,10 @@ aStarAlgo('S', 'G')
 <hr>
 <h2>Sample Input</h2>
 <hr>
-10 14 
-A B 6 
-A F 3 
-B D 2 
+10 14 <br>
+A B 6 <br>
+A F 3 <br>
+B D 2 <br>
 B C 3 <br>
 C D 1 <br>
 C E 5 <br>
